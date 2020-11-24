@@ -1,0 +1,10 @@
+.blog-list{
+    margin-left: 15%;
+    margin-right: 30%;
+}
+.post-item{
+    background-color:#ffffff;
+    margin: 20px;
+    border-style:groove
+}
+

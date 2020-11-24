@@ -1,0 +1,43 @@
+
+scalar Date
+
+type Post {
+  _id: String!
+  title: String!
+  body: String!
+  likes: Int
+  likesData: [String]
+  createdAt: Date
+  createdBy: User
+}
+
+input PostInput {
+  title: String!
+  body: String!
+}
+
+type PostResult {
+  success: Boolean
+  message: String
+  post: Post
+}
+
+type PostsResult {
+  success: Boolean
+  message: String
+  posts: [Post]
+}
+
+type Query {
+  posts: PostsResult!
+  post: Post!
+}
+
+type Mutation {
+  createPost(postInput: PostInput): PostResult
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

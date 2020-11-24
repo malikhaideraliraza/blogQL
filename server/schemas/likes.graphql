@@ -1,0 +1,8 @@
+type Mutation {
+  addLike(postId: String): Results
+  cancelLike(postId: String): Results
+}
+
+schema {
+  mutation: Mutation
+}

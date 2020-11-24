@@ -1,0 +1,25 @@
+h1 {
+  margin-top: 50px;
+  margin-left: 470px;
+}
+
+.form-wraper {
+  margin-top: 70px;
+  margin-right: 20%
+}
+
+.card-wraper {
+  margin-top: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: aliceblue;
+}
+
+.ant-card-meta-detail {
+  font-size: x-large;   
+}
+
+.error-massage {
+  color:red;
+  margin-left: 150px;
+}
